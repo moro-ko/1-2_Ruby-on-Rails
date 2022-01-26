@@ -1,5 +1,5 @@
 def fizz_buzz(number)
-  if number%15==0
+  if number%15==0 # 上から順に読み込むため、15を一番初めに持ってくるのがポイント
     "Fizz_Buzz"
   elsif number%3==0
     "Fizz"
